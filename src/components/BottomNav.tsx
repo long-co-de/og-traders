@@ -5,13 +5,13 @@ const items = [
   { to: '/dashboard', icon: Home, label: 'Home' },
   { to: '/trade', icon: BarChart3, label: 'Signals' },
   { to: '/courses', icon: GraduationCap, label: 'Learn' },
-  { to: '/settings', icon: Bell, label: 'Alerts' },
+  { to: '/notifications', icon: Bell, label: 'Alerts' },
   { to: '/profile', icon: User, label: 'Profile' },
 ]
 
 export default function BottomNav() {
   return (
-    <nav className="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center pt-3 pb-3 px-4 bg-surface-c/90 backdrop-blur-md border-t border-outline-variant/20 shadow-[0_-4px_16px_rgba(0,0,0,0.4)] h-[76px]">
+    <nav className="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center pt-3 pb-3 px-4 bg-surface-c/90 backdrop-blur-md border-t border-outline-variant/20 shadow-[0_-4px_16px_rgba(0,0,0,0.4)] h-[76px] lg:hidden">
       {items.map((item) => (
         <NavLink
           key={item.to}

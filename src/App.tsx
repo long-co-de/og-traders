@@ -8,6 +8,7 @@ import Pricing from './pages/Pricing'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Settings from './pages/Settings'
+import Notifications from './pages/Notifications'
 import Trade from './pages/Trade'
 import SignalDetail from './pages/SignalDetail'
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/courses/:id" element={<CourseDetail />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/notifications" element={<Notifications />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/trade" element={<Trade />} />
         <Route path="/trade/:id" element={<SignalDetail />} />

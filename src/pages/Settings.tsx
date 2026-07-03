@@ -14,7 +14,7 @@ export default function Settings() {
           </Link>
           <h1 className="font-headline text-[28px] text-on-surface font-semibold">Settings</h1>
         </div>
-        <Link to="/settings" className="w-10 h-10 flex items-center justify-center text-primary hover:bg-surface-variant/30 rounded-full transition-all active:scale-90">
+        <Link to="/notifications" className="w-10 h-10 flex items-center justify-center text-primary hover:bg-surface-variant/30 rounded-full transition-all active:scale-90">
           <Bell className="w-5 h-5" />
         </Link>
       </div>
